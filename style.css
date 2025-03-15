@@ -1,0 +1,35 @@
+body {
+    background-color: black; /* خلفية سوداء */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    display: flex;
+    justify-content: center; /* محاذاة الصور أفقياً في المنتصف */
+    align-items: center; /* محاذاة الصور عمودياً */
+    flex-direction: column; /* وضع العناصر عامودياً */
+    height: 100vh; /* جعل الصفحة تمتد لطول الشاشة */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* ترتيب الصور عامودياً */
+    align-items: center;
+}
+
+.responsive-image {
+    max-width: 100%; /* ضبط عرض الصورة بحيث لا تتجاوز عرض الشاشة */
+    height: auto; /* الحفاظ على تناسب الأبعاد */
+    border: 2px solid white; /* إضافة حد أبيض حول الصور */
+    margin-bottom: 10px; /* ترك مسافة بين الصورتين */
+}
+footer {
+    position: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    background: linear-gradient(to right, red, darkorange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
